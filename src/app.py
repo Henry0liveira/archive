@@ -13,7 +13,7 @@ server = app.server
 
 # Carregando dados de exemplo 
 # (pode ser substituído pelos seus próprios dados)
-df = pd.read_csv('src\predictive_maintenance.csv')
+df = pd.read_csv('src\\predictive_maintenance.csv')
 
 
 
