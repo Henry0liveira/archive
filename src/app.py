@@ -13,7 +13,7 @@ server = app.server
 
 # Carregando dados de exemplo 
 # (pode ser substituído pelos seus próprios dados)
-df = pd.read_csv('https://github.com/Henry0liveira/archive/blob/fce42f4ffd12c3182fc625398572ec1182b37b75/src/predictive_maintenance.csv', skiprows=2)
+df = pd.read_csv('https://github.com/Henry0liveira/archive/blob/fce42f4ffd12c3182fc625398572ec1182b37b75/src/predictive_maintenance.csv', on_bad_lines='skip')
 
 
 
